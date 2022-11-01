@@ -2,6 +2,13 @@
   "name": "node-starter",
   "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "distancia-de-edicao": "ts-node ex-de.ts",
+    "scml": "ts-node ex-scml.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
   }
 }
